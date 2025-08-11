@@ -1,0 +1,6 @@
+@idatbancoapi_HostAddress = http://localhost:5138
+
+GET {{idatbancoapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
