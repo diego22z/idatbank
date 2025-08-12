@@ -1,0 +1,35 @@
+PROFESOR ACA SON REFERENCIAS DE COMO USARLOS Y SUS RUTAS PARA QUE NO SE MAREE TANTO
+
+GET
+
+http://localhost:xxxx/api/cuentas/Listar
+
+
+GET(para buscar mas especifico la cuenta)
+
+http://localhost:xxxx/api/cuentas/Buscar/1
+
+
+POST:
+
+http://localhost:xxxx/api/cuentas/Crear
+
+ejemplo: 
+
+{
+  "numeroCuenta": "1948294022",
+  "tipoCuenta": "Ahorros",
+  "saldo": 50.00,
+  "clienteId": 6
+}
+
+
+
+PUT:
+
+http://localhost:xxxx/api/cuentas/Editar/5
+
+
+DELETE:
+
+http://localhost:xxxx/api/cuentas/Eliminar/5
