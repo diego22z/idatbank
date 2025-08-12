@@ -90,6 +90,8 @@ namespace idatbancoapi.Controllers
             _context.Cuenta.Remove(cuenta);
             _context.SaveChanges();
 
+
+
             return Ok(new { mensaje = "Cuenta eliminada correctamente" });
         }
     }

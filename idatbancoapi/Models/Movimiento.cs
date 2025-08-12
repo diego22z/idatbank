@@ -25,5 +25,5 @@ public partial class Movimiento
 
     [ForeignKey("CuentaId")]
     [InverseProperty("Movimientos")]
-    public virtual Cuentum Cuenta { get; set; } = null!;
+    public virtual Cuentum? Cuenta { get; set; }
 }
