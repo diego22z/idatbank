@@ -1,0 +1,32 @@
+PARA PROBAR EN EL POSTMAN:
+
+GET
+http://localhost:xxxx/api/movimientos/Listar
+
+GET(BUSCAR)
+
+http://localhost:xxxx/api/movimientos/buscar/2
+
+--------------
+
+POST:
+
+http://localhost:xxxx/api/movimientos/crear
+
+
+ejemplo para prrobar: 
+{
+  "cuentaId": 1,
+  "tipo": "Deposito",
+  "monto": 100.50,
+}
+
+
+
+PUT:
+
+http://localhost:xxxx/api/movimientos/editar/2
+
+DELETE:
+
+http://localhost:xxxx/api/movimientos/eliminar/2
